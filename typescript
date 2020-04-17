@@ -1,78 +1,0 @@
-Script started on 2020-04-17 11:21:29-0500
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsscripts[?1l>[?2004l
-]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter/scripts]1;..otter/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch main.js[?1l>[?2004l
-]2;touch main.js]1;touch[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter/scripts]1;..otter/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h...[?1l>[?2004l
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsstyles[?1l>[?2004l
-]2;styles]1;styles[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter/styles]1;..potter/styles[0m[27m[24m[J[01;32m➜  [36mstyles[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch main.css[?1l>[?2004l
-]2;touch main.css]1;touch[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter/styles]1;..potter/styles[0m[27m[24m[J[01;32m➜  [36mstyles[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h...[?1l>[?2004l
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push origin the-hai       master                add .[?1l>[?2004l
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggs[?1l>[?2004l
-]2;git status]1;gsOn branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mnew file:   index.html[m
-	[32mnew file:   scripts/main.js[m
-	[32mnew file:   styles/main.css[m
-	[32mnew file:   typescript[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   typescript[m
-
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -"initial commit"[?1l>[?2004l
-]2;git commit -"initial commit"]1;gitfatal: No paths with --include/--only does not make sense.
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;31m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgit commit -"initial commit"[1Cn"initial commit"[16D[P[16C [17Dm"initial commit"[16D[?1l>[?2004l
-]2;git commit -m"initial commit"]1;git[master 114ff92] initial commit
- 4 files changed, 8 insertions(+)
- create mode 100644 index.html
- create mode 100644 scripts/main.js
- create mode 100644 styles/main.css
- create mode 100644 typescript
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push origin master[?1l>[?2004l
-]2;git push origin master]1;gitEnter passphrase for key '/home/durrjp/.ssh/id_rsa': 
-Counting objects: 6, done.
-Delta compression using up to 8 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 835 bytes | 417.00 KiB/s, done.
-Total 6 (delta 0), reused 0 (delta 0)
-To github.com:durrjp/the-hairy-potter.git
-   7a4e14f..114ff92  master -> master
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit checkout -b make-pottery-JD[?1l>[?2004l
-]2;git checkout -b make-pottery-JD]1;gitM	typescript
-Switched to a new branch 'make-pottery-JD'
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmake-pottery-JD[34m) [33m✗[00m [K[?1h=[?2004hggit push origin make-pottery-JD[1m [0m[0m [?1l>[?2004l
-]2;git push origin make-pottery-JD]1;gitEnter passphrase for key '/home/durrjp/.ssh/id_rsa': 
-Total 0 (delta 0), reused 0 (delta 0)
-remote: 
-remote: Create a pull request for 'make-pottery-JD' on GitHub by visiting:[K
-remote:      https://github.com/durrjp/the-hairy-potter/pull/new/make-pottery-JD[K
-remote: 
-To github.com:durrjp/the-hairy-potter.git
- * [new branch]      make-pottery-JD -> make-pottery-JD
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmake-pottery-JD[34m) [33m✗[00m [K[?1h=[?2004hccode .[?1l>[?2004l
-]2;code .]1;code[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;32m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmake-pottery-JD[34m) [33m✗[00m [K[?1h=[?2004hhhs\[?1l>[?2004l
-[0m[27m[24m[J> [K[?1h=[?2004hcode .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                       ]2;durrjp@Jon-HP-Spectre: ~/workspace/the-hairy-potter]1;..-hairy-potter[0m[27m[24m[J[01;31m➜  [36mthe-hairy-potter[00m [01;34mgit:([31mmake-pottery-JD[34m) [33m✗[00m [K[?1h=[?2004hhhs[?1l>[?2004l
-]2;serve -l 8080]1;hs[31mERROR:[39m Cannot copy to clipboard: Command failed: xsel --clipboard --input
-xsel: Can't open display: (null)
-: Inappropriate ioctl for device
-
-
-[32m[39m
-[32m   ┌───────────────────────────────────────────────┐[39m
-   [32m│[39m                                               [32m│[39m
-   [32m│[39m   [32mServing![39m                                    [32m│[39m
-   [32m│[39m                                               [32m│[39m
-   [32m│[39m   [1m- Local:[22m            http://localhost:8080   [32m│[39m
-   [32m│[39m   [1m- On Your Network:[22m  http://10.0.0.12:8080   [32m│[39m
-   [32m│[39m                                               [32m│[39m
-[32m   └───────────────────────────────────────────────┘[39m
-[32m[39m
-^C
-[35mINFO:[39m Gracefully shutting down. Please wait...
-[1m[7m%[27m[1m[0m                                                                                                  

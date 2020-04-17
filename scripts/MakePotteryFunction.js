@@ -24,14 +24,13 @@ const KilnFunction = (potteryObj, temperature) => {
 }
 
 const potteryToSell = []
+export const potteryForSale = potteryToSell.slice()
 
 const ToSellOrNotToSell = (potteryObj) => {
     potteryObj.weight > 3 ? potteryObj.price=40 : potteryObj.price=20
     if (potteryObj.cracked === false) {
         potteryToSell.push(potteryObj)
     }
-    console.log(potteryObj)
-    console.log(potteryToSell)
 
 }
 
@@ -55,7 +54,7 @@ const potParameters = [
         temperature: 2400
     },
     {
-        shape: "circle",
+        shape: "lizard shape",
         weight: 5,
         height: 5,
         temperature: 2200
@@ -68,14 +67,13 @@ const potParameters = [
     },
 ]
 
-const PotsAssembly = () => {
+ export const PotsAssembly = () => {
     potParameters.map(potParamObject => {
         const madePot = MakePottery(potParamObject.shape, potParamObject.weight, potParamObject.height)
         const firedPot = KilnFunction(madePot, potParamObject.temperature)
         ToSellOrNotToSell(firedPot)
     })
-    console.log(potteryToSell)
+    return potteryToSell
 }
 
-PotsAssembly()
 
