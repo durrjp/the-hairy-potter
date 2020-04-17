@@ -1,4 +1,4 @@
-import "./MakePotteryFunction.js"
-import { PotList } from "./PotList.js"
+import { PotList } from "./pottery/PotList.js"
+import { getPots } from "./pottery/potProvider.js"
 
-PotList()
+getPots().then(PotList)

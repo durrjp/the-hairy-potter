@@ -1,0 +1,49 @@
+{
+    "pottery": [
+        {
+            "id": 1,
+            "shape": "circle",
+            "weight": 20,
+            "height": 10,
+            "temperature": 2100,
+            "price": 40,
+            "cracked": false
+        },
+        {
+            "id": 2,
+            "shape": "vase shape",
+            "weight": 5,
+            "height": 2,
+            "temperature": 1800,
+            "price": 40,
+            "cracked": false
+        },
+        {
+            "id": 3,
+            "shape": "square",
+            "weight": 10,
+            "height": 2,
+            "temperature": 2400,
+            "price": 40,
+            "cracked": true
+        },
+        {
+            "id": 4,
+            "shape": "lizard shape",
+            "weight": 5,
+            "height": 5,
+            "temperature": 2200,
+            "price": 40,
+            "cracked": false
+        },
+        {
+            "id": 5,
+            "shape": "U-shaped",
+            "weight": 1,
+            "height": 1,
+            "temperature": 2150,
+            "price": 20,
+            "cracked": false
+        }
+    ]
+}

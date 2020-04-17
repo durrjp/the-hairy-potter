@@ -1,14 +1,16 @@
 import { Pot } from "./Pot.js"
-import { PotsAssembly } from "./MakePotteryFunction.js"
+import { usePots } from "./potProvider.js"
 
 const contentTarget = document.querySelector("#inventory")
 const eventHub = document.querySelector("#inventory")
 
 export const PotList = () => {
-    const potteryToSell = PotsAssembly()
+    const potteryToSell = usePots()
     console.log(potteryToSell)
     contentTarget.innerHTML = potteryToSell.map(pot => {
-        return Pot(pot)
+        if (pot.cracked === false) {
+            return Pot(pot)
+        }
     }).join("")
 }
 
